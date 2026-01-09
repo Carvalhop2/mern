@@ -10,5 +10,74 @@ Content-Type:{{contentType}}
         "author": "H. Deitel e M. Deitel",
         "genre": "Programação Orientada a Objetos / Tecnologia Java",
         "cover": "https://share.google/QXwXjHXdpxcO73OwZ"
+    },    
+    {
+        "title": "The Art of Computer Programming, Vol. 1",
+        "subtitle": "Fundamental Algorithms",
+        "author": "Donald E. Knuth",
+        "genre": "Algoritmos / Ciência da Computação",
+        "cover": "http://books.google.com/books/content?id=B31GAAAAYAAJ&printsec=frontcover&img=1&zoom=1"
+    },
+    {
+        "title": "Computer Science Illuminated",
+        "subtitle": "",
+        "author": "Nell Dale, John Lewis",
+        "genre": "Ciência da Computação",
+        "cover": "https://books.google.com/books/content?id=9TpkkADnMI8C&printsec=frontcover&img=1&zoom=1"
+    },
+    {
+        "title": "Computer Organization and Design",
+        "subtitle": "The Hardware/Software Interface",
+        "author": "David A. Patterson, John L. Hennessy",
+        "genre": "Arquitetura de Computadores",
+        "cover": "http://books.google.com/books/content?id=3b63x-0P3_UC&printsec=frontcover&img=1&zoom=1"
+    },
+    {
+        "title": "IOT Start",
+        "subtitle": "Algoritmos e Programação C/C++ e Arduino – Conceitos",
+        "author": "Antônio Catani",
+        "genre": "Internet das Coisas / Programação",
+        "cover": "http://books.google.com/books/content?id=ZFn7EAAAQBAJ&printsec=frontcover&img=1&zoom=1"
+    },
+    {
+        "title": "Estatística Prática para Cientistas de Dados",
+        "subtitle": "50 conceitos essenciais",
+        "author": "Andrew Bruce, Peter Bruce",
+        "genre": "Ciência de Dados / Estatística",
+        "cover": "http://books.google.com/books/content?id=PyrgzQEACAAJ&printsec=frontcover&img=1&zoom=1"
+    },
+    {
+        "title": "Highly Parallel Computing",
+        "subtitle": "",
+        "author": "George S. Almasi, Allan Gottlieb",
+        "genre": "Computação Paralela / Sistemas",
+        "cover": "http://books.google.com/books/content?id=TcgmAAAAMAAJ&printsec=frontcover&img=1&zoom=1"
+    },
+    {
+        "title": "O Livro de Ouro da Inteligência Artificial",
+        "subtitle": "Edição 2024",
+        "author": "Diego Rodrigues",
+        "genre": "Inteligência Artificial / Tecnologia",
+        "cover": "https://books.google.com/books/content?id=y14wEQAAQBAJ&printsec=frontcover&img=1&zoom=1"
+    },
+    {
+        "title": "Organização e Arquitetura de Computadores",
+        "subtitle": "",
+        "author": "Luiz Ricardo Mantovani da Silva",
+        "genre": "Arquitetura de Computadores",
+        "cover": "https://books.google.com/books/content?id=gZ7tDwAAJ&printsec=frontcover&img=1&zoom=1"
+    },
+    {
+        "title": "ChatGPT Explicado",
+        "subtitle": "",
+        "author": "Helbert Costa",
+        "genre": "Inteligência Artificial / Software",
+        "cover": "https://books.google.com/books/content?id=R8T7zwEACAAJ&printsec=frontcover&img=1&zoom=1"
+    },
+    {
+        "title": "The Art of Computer Programming, Vol. 2",
+        "subtitle": "Seminumerical Algorithms",
+        "author": "Donald E. Knuth",
+        "genre": "Algoritmos / Ciência da Computação",
+        "cover": "https://books.google.com/books/content?id=…(exemplo)…&printsec=frontcover&img=1&zoom=1"
     }
-
