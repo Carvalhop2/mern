@@ -1,4 +1,5 @@
 @host = http://localhost:3000
+
 @baseUrl={{host}}/api/v1
 @contentType=application/json
 POST {{baseUrl}}/books
@@ -9,7 +10,8 @@ Content-Type:{{contentType}}
         "author": "H. Deitel e M. Deitel",
         "genre": "Programação Orientada a Objetos / Tecnologia Java",
         "cover": "https://share.google/QXwXjHXdpxcO73OwZ"
-    },    
+    },  
+
     {
         "title": "The Art of Computer Programming, Vol. 1",
         "subtitle": "Fundamental Algorithms",
@@ -17,6 +19,7 @@ Content-Type:{{contentType}}
         "genre": "Algoritmos / Ciência da Computação",
         "cover": "http://books.google.com/books/content?id=B31GAAAAYAAJ&printsec=frontcover&img=1&zoom=1"
     },
+
     {
         "title": "Computer Science Illuminated",
         "subtitle": "",
@@ -24,6 +27,7 @@ Content-Type:{{contentType}}
         "genre": "Ciência da Computação",
         "cover": "https://books.google.com/books/content?id=9TpkkADnMI8C&printsec=frontcover&img=1&zoom=1"
     },
+
     {
         "title": "Computer Organization and Design",
         "subtitle": "The Hardware/Software Interface",
@@ -31,6 +35,7 @@ Content-Type:{{contentType}}
         "genre": "Arquitetura de Computadores",
         "cover": "http://books.google.com/books/content?id=3b63x-0P3_UC&printsec=frontcover&img=1&zoom=1"
     },
+
     {
         "title": "IOT Start",
         "subtitle": "Algoritmos e Programação C/C++ e Arduino – Conceitos",
@@ -38,6 +43,7 @@ Content-Type:{{contentType}}
         "genre": "Internet das Coisas / Programação",
         "cover": "http://books.google.com/books/content?id=ZFn7EAAAQBAJ&printsec=frontcover&img=1&zoom=1"
     },
+
     {
         "title": "Estatística Prática para Cientistas de Dados",
         "subtitle": "50 conceitos essenciais",
@@ -45,6 +51,7 @@ Content-Type:{{contentType}}
         "genre": "Ciência de Dados / Estatística",
         "cover": "http://books.google.com/books/content?id=PyrgzQEACAAJ&printsec=frontcover&img=1&zoom=1"
     },
+
     {
         "title": "Highly Parallel Computing",
         "subtitle": "",
@@ -52,6 +59,7 @@ Content-Type:{{contentType}}
         "genre": "Computação Paralela / Sistemas",
         "cover": "http://books.google.com/books/content?id=TcgmAAAAMAAJ&printsec=frontcover&img=1&zoom=1"
     },
+
     {
         "title": "O Livro de Ouro da Inteligência Artificial",
         "subtitle": "Edição 2024",
@@ -59,6 +67,7 @@ Content-Type:{{contentType}}
         "genre": "Inteligência Artificial / Tecnologia",
         "cover": "https://books.google.com/books/content?id=y14wEQAAQBAJ&printsec=frontcover&img=1&zoom=1"
     },
+
     {
         "title": "Organização e Arquitetura de Computadores",
         "subtitle": "",
@@ -66,6 +75,7 @@ Content-Type:{{contentType}}
         "genre": "Arquitetura de Computadores",
         "cover": "https://books.google.com/books/content?id=gZ7tDwAAJ&printsec=frontcover&img=1&zoom=1"
     },
+
     {
         "title": "ChatGPT Explicado",
         "subtitle": "",
@@ -73,6 +83,7 @@ Content-Type:{{contentType}}
         "genre": "Inteligência Artificial / Software",
         "cover": "https://books.google.com/books/content?id=R8T7zwEACAAJ&printsec=frontcover&img=1&zoom=1"
     },
+
     {
         "title": "The Art of Computer Programming, Vol. 2",
         "subtitle": "Seminumerical Algorithms",
@@ -84,5 +95,7 @@ Content-Type:{{contentType}}
 GET {{baseUrl}}/books
 Content-Type:{{contentType}}
 
-GET {{baseUrl}}/books/id
+
+GET {{baseUrl}}/books/:id
 Content-Type:{{contentType}}
+
