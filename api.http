@@ -2,6 +2,8 @@
 
 @baseUrl={{host}}/api/v1
 @contentType=application/json
+
+###
 POST {{baseUrl}}/books
 Content-Type:{{contentType}}
 
@@ -92,10 +94,14 @@ Content-Type:{{contentType}}
         "cover": "https://books.google.com/books/content?id=…(exemplo)…&printsec=frontcover&img=1&zoom=1"
     }
 
+###
 GET {{baseUrl}}/books
 Content-Type:{{contentType}}
 
-
+###
 GET {{baseUrl}}/books/:id
 Content-Type:{{contentType}}
 
+###
+PUT {{baseUrl}}/books/:id
+Content-Type:{{contentType}}
